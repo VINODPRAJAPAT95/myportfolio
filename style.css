@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
- 
   box-sizing: border-box;
 }
 
@@ -188,7 +187,7 @@ nav .fa {
 }
 
 .content .intro {
-  font-size: 14px;
+  font-size: 24px;
   letter-spacing: 1px;
    background: linear-gradient(90deg, #ff007f, #8b5cf6, #3b82f6);
   -webkit-background-clip: text;
@@ -198,7 +197,7 @@ nav .fa {
 }
 
 .content h1 {
-  font-size: 56px;
+  font-size: 20px;
   margin: 15px 0;
   font-weight: 700;
     background: linear-gradient(90deg, #ff007f, #8b5cf6, #6df63b);
@@ -221,6 +220,7 @@ nav .fa {
   color: #ed0d0d;
   margin-bottom: 30px;
    font-family: "Commissioner", sans-serif;
+   /* margin-left: 34px */
 }
 
 /* SOCIAL ICONS */
@@ -228,6 +228,7 @@ nav .fa {
   display: flex;
   gap: 20px;
   margin-bottom: 30px;
+  margin-left: 35px;
 
 }
 
@@ -336,6 +337,7 @@ nav .fa {
 
   .buttons {
     justify-content: center;
+    margin-left: 35px;
   }
 
   .socials {
@@ -359,6 +361,7 @@ nav .fa {
 
   .content p {
     font-size: 14px;
+    margin-left: 30px;
   }
 
   .buttons {
@@ -795,6 +798,8 @@ form .btn2 {
   }
 }
 
+
+
 /* Responsive */
 @media (max-width: 768px) {
   nav ul {
@@ -1216,6 +1221,7 @@ textarea::placeholder {
   }
 }
 
+/*footer*/
 /* Footer */
 .copyright {
   width: 100%;
@@ -1230,5 +1236,7 @@ textarea::placeholder {
 .copyright i {
   color: #ff004f;
 }
+
+
 
 
