@@ -212,6 +212,8 @@ nav .fa {
   -webkit-text-fill-color: transparent;
   font-weight: 600;
    font-family: "Dancing Script", cursive
+  font-size: 20px;
+}
 }
 
 .content p {
@@ -1237,6 +1239,7 @@ textarea::placeholder {
 .copyright i {
   color: #ff004f;
 }
+
 
 
 
