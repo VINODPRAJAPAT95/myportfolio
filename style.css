@@ -187,7 +187,7 @@ nav .fa {
 }
 
 .content .intro {
-  font-size: 24px;
+  font-size: 54px;
   letter-spacing: 1px;
    background: linear-gradient(90deg, #ff007f, #8b5cf6, #3b82f6);
   -webkit-background-clip: text;
@@ -197,7 +197,7 @@ nav .fa {
 }
 
 .content h1 {
-  font-size: 20px;
+  font-size: 56px;
   margin: 15px 0;
   font-weight: 700;
     background: linear-gradient(90deg, #ff007f, #8b5cf6, #6df63b);
@@ -211,9 +211,8 @@ nav .fa {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 600;
-   font-family: "Dancing Script", cursive
-  font-size: 20px;
-}
+   font-family: "Dancing Script", cursive;
+   font-size: 20px;
 }
 
 .content p {
@@ -324,7 +323,7 @@ nav .fa {
   }
 
   .content h1 {
-    font-size: 42px;
+    font-size: 24px;
   }
 
   .profile .outer-circle {
@@ -1239,6 +1238,7 @@ textarea::placeholder {
 .copyright i {
   color: #ff004f;
 }
+
 
 
 
