@@ -1,226 +1,271 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+ <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Personal Portfolio - Vinod</title>
   <link rel="icon" type="image/x-icon" href="https://cdn.vectorstock.com/i/500p/36/90/splash-letter-v-logo-design-paint-vector-55913690.jpg">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet"> 
 </head>
 <body>
 
-<!-- Header -->
-<header id="header">
-  <div class="circle-bg">
-    <div class="circle"></div>
-    <div class="circle delay1"></div>
-    <div class="circle delay2"></div>
-  </div>
-
+  <!-- Header -->
+  <header id="header">
   <div class="content">
     <nav>
-      <img src="https://img.freepik.com/premium-vector/beautiful-mandela-design-vector-file-best-style-mehedi-pattern-art-design_1132833-4.jpg" alt="logo" class="logo"/>
+      <img src="https://cdn.vectorstock.com/i/2000v/25/09/modern-monogram-letter-vp-with-slash-vector-27982509.avif"
+        alt="logo" class="logo" />
 
       <ul id="sidemenu">
         <li><a href="#header">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#service">Service</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#project">Project</a></li>
         <li><a href="#contact">Contact</a></li>
         <i class="fa fa-times" onclick="closemenu()"></i>
       </ul>
+
       <i class="fa fa-bars" onclick="openmenu()"></i>
-
-    
     </nav>
-
-    <div class="head-text">
-      <p class="fade-in">Front End Developer</p>
-      <h1 class="slide-in">
-        Hi, I'm <span class="name-glow"><i>Vinod</i></span><br/>
-        Prajapat From Pali, Rajasthan
-      </h1>
-    </div>
   </div>
 </header>
-
-
-<!-- About -->
-<section id="about">
-  <div class="content row">
-    <div class="one-col-2">
-      <h1 class="sub-title">About Me</h1>
+  <section class="hero" id="Header">
+    <!-- LEFT TEXT -->
+    <div class="content">
+      <span class="intro">✨ I'M VINOD PRAJAPAT</span>
+      <h1>Software <span>Developer</span></h1>
       <p>
-        As a Front-End Developer, I specialize in creating visually appealing, responsive, and user-friendly web applications.
-        Skilled in <b>HTML, CSS, JavaScript, React.js, Tailwind</b>, I focus on delivering seamless experiences across devices.
+      A passionate Front-End Developer focused on creating modern, responsive, and user-friendly web applications. Skilled in HTML, CSS, JavaScript, and React, with a strong eye for design and performance. Dedicated to turning ideas into seamless digital experience.
       </p>
 
-      <div class="tab-titles">
-        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
-        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
-        <p class="tab-links" onclick="opentab('Education')">Education</p>
+      <div class="socials">
+        <a href="https://github.com/VINODPRAJAPAT95 " style="color: white;"><i class="fab fa-github"></i></a>
+        <a href="#" style="color: white;"><i class="fab fa-twitter"></i></a>
+        <a href="#" style="color: white;"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://wa.me/9521852927" style="color: white;"><i class="fab fa-whatsapp"></i></a>
       </div>
 
-      <div class="tab-contents active-tab" id="Skills">
-        <ul>
-          <li><span>UI/UX</span><br>Design Web/App Interfaces</li>
-          <li><span>Web Development</span><br>Responsive Websites & Apps</li>
-          <li><span>Front-End Developer</span><br>React, Tailwind, JavaScript</li>
-        </ul>
-      </div>
-
-      <div class="tab-contents" id="Experience">
-        <ul>
-          <li><span>Jan 2025 – Mar 2025</span><br>UI/UX Internship @ Brainwave Matrix Solution</li>
-          <li><span>Aug 2024 – Jan 2025</span><br>Web Developer @ RseeTech Education Hub</li>
-        </ul>
-      </div>
-
-      <div class="tab-contents" id="Education">
-        <ul>
-          <li><span>BCA (2022-2025)</span><br>Sikkim Professional University, Gangtok</li>
-          <li><span>Secondary School</span><br>Shree Parashwanath Jain School, Rajasthan</li>
-        </ul>
+      <div class="buttons">
+        <a href="C:\Users\Dell\Downloads\Vinod_prajapat_6 months experience.pdf" class="btn white">Download CV</a>
+        <a href="#" class="btn outline">Hire Me</a>
       </div>
     </div>
+
+    <!-- RIGHT IMAGE -->
+    <div class="profile">
+      <div class="outer-circle">
+        <img src="c:\Users\Dell\Pictures\WhatsApp Image 2025-09-18 at 14.32.22_5ab5afae.jpg" alt="Profile">
+      </div>
+    </div>
+  </section>
+  <!-----SERVICE----------->
+  <section class="services" id="service">
+    <h2>MY <span>SERVICES</span></h2>
+
+    <div class="services-grid">
+      <div class="service-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png" alt="">
+        <h3>WEB DESIGN</h3>
+        <p>Designing clean, modern, and visually appealing layouts that enhance user experience.</p>
+      </div>
+
+      <div class="service-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/2920/2920244.png" alt="">
+        <h3>FRONT-END DEVELOPMENT</h3>
+        <p>Building responsive, interactive, and performance-driven websites using HTML, CSS, and JavaScript.</p>
+      </div>
+
+      <div class="service-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="">
+        <h3>UI / UX IMPLEMENTATION</h3>
+        <p>Transforming creative ideas into user-friendly interfaces with smooth interactions.</p>
+      </div>
+
+      <div class="service-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/1828/1828859.png" alt="">
+        <h3>RESPONSIVE DESIGN</h3>
+        <p>Ensuring websites look and function seamlessly across all devices and screen sizes.</p>
+      </div>
+
+      <div class="service-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/1177/1177568.png" alt="">
+        <h3>CODE OPTIMIZATION</h3>
+        <p>Writing clean, efficient, and maintainable code for better performance and scalability.</p>
+      </div>
+
+      <div class="service-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/2920/2920339.png" alt="">
+        <h3>PROJECT CUSTOMIZATION</h3>
+        <p>Adapting and customizing web solutions to meet specific client needs.</p>
+      </div>
+    </div>
+  </section>
+  <section class="experience">
+    <h2>Working Experience</h2>
+    <div class="timeline">
+      <div class="experience-card left">
+        <h4>Web Developer Trainee</h4>
+        <em>RseeTech Computer Education Hub</em>
+        <span class="year">Sep.2024 - March.2025</span>
+        <p>Worked on front-end web development projects, focusing on building responsive layouts, designing user-friendly interfaces, and writing clean code using HTML, CSS, and JavaScript. Collaborated in training sessions to strengthen practical skills and implement real-world web solutions.
+        </p>
+      </div>
+
+      <div class="experience-card right">
+        <h4>Front-End Developer Internship(Part Time)</h4>
+        <em>Brainwave Matrix Solution</em>
+        <span class="year">Jan.2025 - March.2050</span>
+        <p>Contributed to front-end development tasks, including creating responsive web pages, improving UI/UX, and writing clean code with HTML, CSS, and JavaScript. Assisted in real-world projects to gain practical industry experience while working part-time.
+        </p>
+      </div>
+      <div class="experience-card left">
+        <h4>Web Developer Internship</h4>
+        <em>Infotact solutions</em>
+        <span class="year">Sep.2045 - Present</span>
+        <p>Engaged in front-end development projects, focusing on building responsive websites, optimizing user interfaces, and enhancing performance with HTML, CSS, and JavaScript. Collaborating with the team to apply best practices and gain hands-on industry experience.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!--------skills-->
+ <section class="skills" id="skills">
+  <h2>Skills</h2>
+  <p>
+    I enjoy diving into and learning new things. Here's a list of technologies I've worked with
+  </p>
+
+  <div class="skills-grid">
+    <div class="skill-card">HTML</div>
+    <div class="skill-card">CSS</div>
+    <div class="skill-card">JAVASCRIPT</div>
+    <div class="skill-card">REACT</div>
+    <div class="skill-card">PHP</div>
+    <div class="skill-card">NODE.JS</div>
+    <div class="skill-card">MONGO DB</div>
+    <div class="skill-card">NEXT.JS</div>
+    <div class="skill-card">Django</div>
+    <div class="skill-card">VS.CODE</div>
+    <div class="skill-card">GITHUB</div>
+    <div class="skill-card">GraphQL</div>
   </div>
 </section>
-
-<!-- Services -->
-<section id="service">
-  <div class="content">
-    <h1 class="myy">My Services</h1>
-    <div class="services-list">
-      <div>
-        <h2>Web Design</h2>
-        <p>Design and build functional, user-friendly, and visually appealing websites optimized for performance.</p>
-      </div>
-      <div>
-        <h2>UI/UX Design</h2>
-        <p>Create wireframes, mockups, and intuitive layouts for web & mobile with consistent branding and icons.</p>
-      </div>
-      <div>
-        <h2>Front-End Development</h2>
-        <p>Develop interactive web apps using <mark>HTML, CSS, JS, React</mark> with clean, reusable code.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Portfolio -->
-<section id="portfolio">
-  <div class="content">
-    <h1 class="myy">My Work</h1>
-    <div class="work-list">
-      <div class="work">
-        <img src="https://colibriwp.com/blog/wp-content/uploads/2018/07/banner-redimensionat.jpg" alt="portfolio"/>
-        <div class="layer">
-          <h3>Portfolio Website</h3>
-          <p>Responsive personal portfolio with animations and smooth scrolling.</p>
+  <section class="portfolio-section" id="project">
+    <h2>POROJECT</h2>
+    <div class="portfolio-grid">
+      
+      <div class="portfolio-card">
+        <img src="C:\Users\Dell\Pictures\Screenshots\Screenshot 2025-09-19 153511.png" alt="Project 1">
+        <div class="card-content">
+          <h3>Creating responsive, modern, and user-friendly web experiences with clean design and code.</h3>
+          <a href="#">🔗 Visit</a>
         </div>
       </div>
-      <div class="work">
-        <img src="https://saikai.io/img/blog-photos/31/ecommerce-website-layout-design.jpg" alt="ecommerce"/>
-        <div class="layer">
-          <h3>E-Commerce UI</h3>
-          <p>Modern shopping UI with product listing and responsive layout.</p>
+
+      <div class="portfolio-card">
+        <img src="C:\Users\Dell\Pictures\Screenshots\Screenshot 2025-09-19 154934.png" alt="Project 2">
+        <div class="card-content">
+          <h3>Experience comfort, luxury, and hospitality with our elegant rooms and world-class services</h3>
+          <a href="#">🔗 Visit</a>
         </div>
       </div>
-      <div class="work">
-        <img src="https://slidemodel.com/wp-content/uploads/21868-01-vintage-weather-dashboard-powerpoint-template-16x9-1.jpg" alt="weather"/>
-        <div class="layer">
-          <h3>Weather Dashboard</h3>
-          <p>Real-time weather app using OpenWeatherMap API.</p>
+
+      <div class="portfolio-card">
+        <img src="C:\Users\Dell\Pictures\Screenshots\Screenshot 2025-09-19 155459.png" alt="Project 3">
+        <div class="card-content">
+          <h3>Stay updated with real-time weather forecasts, personalized just for you</h3>
+          <a href="#">🔗 Visit</a>
         </div>
       </div>
-    </div>
-  </div>
-</section>
 
-<!-- Contact -->
-<section id="contact">
-  <div class="content row">
-    <div class="contact-left">
-      <h1 class="sub-title">Contact Me</h1>
-      <p><i class="fa fa-paper-plane"></i> vinupra9521@gmail.com</p>
-      <p><i class="fa fa-phone"></i> +91 9521852927</p>
-      <div class="social-icons">
-        <a href="https://www.instagram.com/vinodprzpt"><i class="fa-brands fa-instagram"></i></a>
-        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-        <a href="#"><i class="fa-brands fa-github"></i></a>
+    </div>
+  </section>
+<!------about me-------->
+
+  <!----contact----->
+  <section class="contact-section" id="contact">
+    <div class="contact-container">
+      <!-- LEFT SIDE -->
+      <div class="contact-left">
+        <h2 class="contact-heading">DO YOU HAVE A PROJECT TO DISCUSS?</h2>
+        <h3 class="contact-subheading">
+          GET IN TOUCH <i class="fa-regular fa-comments"></i>
+        </h3>
+        <div class="contact-info">
+          <div class="contact-details">
+            <h4>CONTACT</h4>
+            <a href="vinupra9521@gmail.com">vinupra9521@gmail.com</a>
+          </div>
+          <div class="contact-social">
+            <h4>SOCIAL MEDIA</h4>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/vinodprajapat
+"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://wa.me/9521852927"><i class="fa-brands fa-whatsapp"></i></a>
+              <a href=""><i class="fa-regular fa-paper-plane"></i></a>
+            </div>
+          </div>
+        </div>
       </div>
-      <a href="Vinu_dated_Resume.pdf" download class="btn btn2">Download CV</a>
+      <!-- RIGHT SIDE -->
+      <div class="contact-right">
+        <h3 class="form-title">CONTACT FORM</h3>
+        <form>
+          <input type="text" placeholder="Name" required>
+          <input type="email" placeholder="Email" required>
+          <textarea placeholder="Message" rows="4" required></textarea>
+          <button type="submit" class="btn-send">SEND</button>
+        </form>
+      </div>
     </div>
-
-    <div class="contact-right">
-      <form name="submit-to-google-sheet">
-        <input type="text" name="Name" placeholder="Your Name" required>
-        <input type="email" name="Email" placeholder="Your Email" required>
-        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
-        <button type="submit" class="btn btn2">Submit</button>
-      </form>
-      <span id="msg"></span>
-    </div>
-  </div>
-
-<!-- Tech Stack Icons -->
-<div class="tech-icons">
-  <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML"><p>HTML</p></div>
-  <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS"><p>CSS</p></div>
-  <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"><p>JavaScript</p></div>
-  <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"><p>React</p></div>
-  <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js"><p>Next.js</p></div>
-  <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt="Tailwind"><p>Tailwind</p></div>
-  <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP"><p>PHP</p></div>
-  <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express"><p>Express</p></div>
-  <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL"><p>MySQL</p></div>
-  <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" alt="SQLite"><p>SQLite</p></div>
-  <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code"><p>VS Code</p></div>
-  <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"><p>Git</p></div>
-  <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub"><p>GitHub</p></div>
-  <div class="tech-item"><img src="https://img.icons8.com/?size=100&id=61466&format=png&color=000000" alt="API"><p>API</p></div>
-</div>
-
-
+  </section>
+  <!-- Font Awesome Icons -->
 
   <div class="copyright">
     <p>© 2025 Vinod Prajapat | Made with <i class="fa fa-heart"></i></p>
   </div>
-</section>
+  </section>
+  <!-- JavaScript -->
+  <script>
+    window.addEventListener("load", () => {
+      const cards = document.querySelectorAll(".service-card");
+      cards.forEach((card, index) => {
+        setTimeout(() => {
+          card.classList.add("show");
+        }, index * 200); // delay each card
+      });
+    });
+    function openmenu() {
+    document.getElementById("sidemenu").classList.add("active");
+    document.querySelector(".fa-bars").classList.add("hide");
+  }
 
-<!-- JavaScript -->
-<script>
+  function closemenu() {
+    document.getElementById("sidemenu").classList.remove("active");
+    document.querySelector(".fa-bars").classList.remove("hide");
+  }
 
-function opentab(tabname) {
-  let tablinks = document.getElementsByClassName("tab-links");
-  let tabcontents = document.getElementsByClassName("tab-contents");
-  for (let t of tablinks) t.classList.remove("active-link");
-  for (let c of tabcontents) c.classList.remove("active-tab");
-  event.currentTarget.classList.add("active-link");
-  document.getElementById(tabname).classList.add("active-tab");
-}
+    const scriptURL = "https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec";
+    const form = document.forms["submit-to-google-sheet"];
+    const msg = document.getElementById("msg");
 
-let sidemenu = document.getElementById("sidemenu");
-function openmenu(){ sidemenu.style.right = "0"; }
-function closemenu(){ sidemenu.style.right = "-200px"; }
-
-const scriptURL = "https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec";
-const form = document.forms["submit-to-google-sheet"];
-const msg = document.getElementById("msg");
-
-form.addEventListener("submit", e => {
-  e.preventDefault();
-  fetch(scriptURL, { method: "POST", body: new FormData(form)})
-    .then(() => {
-      msg.innerHTML = "Message Sent Successfully!";
-      setTimeout(()=> msg.innerHTML = "", 5000);
-      form.reset();
-    })
-    .catch(err => console.error("Error!", err.message));
-});
-</script>
+    form.addEventListener("submit", e => {
+      e.preventDefault();
+      fetch(scriptURL, { method: "POST", body: new FormData(form) })
+        .then(() => {
+          msg.innerHTML = "Message Sent Successfully!";
+          setTimeout(() => msg.innerHTML = "", 5000);
+          form.reset();
+        })
+        .catch(err => console.error("Error!", err.message));
+    });
+  </script>
 
 </body>
 </html>
+
