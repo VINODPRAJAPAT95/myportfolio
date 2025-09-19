@@ -278,7 +278,7 @@ nav .fa {
 
 .btn.outline {
   background: linear-gradient(90deg, #ff007f, #8b5cf6, #3b82f6);
-  color: #fff;
+  color: #000000;
 }
 
 .btn.outline:hover {
@@ -328,6 +328,7 @@ nav .fa {
   .profile .outer-circle {
     width: 250px;
     height: 250px;
+    margin-left: 20px;
   }
 
   .profile img {
@@ -1236,6 +1237,7 @@ textarea::placeholder {
 .copyright i {
   color: #ff004f;
 }
+
 
 
 
